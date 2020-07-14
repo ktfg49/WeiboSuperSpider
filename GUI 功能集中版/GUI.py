@@ -1183,3 +1183,6 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = ScrapyGUI()
     sys.exit(app.exec_())
+    import os
+    os.system ("pause")
+    
